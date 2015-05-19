@@ -498,6 +498,14 @@ where a.sql_address =b.address order by address, piece;
     cat id_rsa.pub.centos1 >> authorized_keys
 *** 设置authorized_keys权限
     chmod 600 authorized_keys
+* git
+| 操作                    | 注释     |
+|-------------------------+----------|
+| git init                | 初始化   |
+| git add <file-name>     | 添加文件 |
+| git commit -m "comment" | 提交并添加注释 |
+| git push                | 推送到github      |
+   
 * postgresql
 ** 修改登录密码
    su - postgres
